@@ -17,9 +17,10 @@
 development:
   adapter: postgresql
   encoding: unicode
-  database: Guestbook_development
+  database: guestbook_db
+  host: localhost
   pool: 5
-  username: Guestbook
+  username: guestbook
   password:
 
   # Connect on a TCP socket. Omitted by default since the client uses a
